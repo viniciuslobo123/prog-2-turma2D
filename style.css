@@ -26,14 +26,6 @@ body {
     height: 100vh;
 }
 
-.container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: block;
-}
-
 .container {
     height: 100vh;
     display: grid;
@@ -66,4 +58,26 @@ body {
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
+}
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.container__caixa {
+    margin: 0 6em;
+}
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
 }
