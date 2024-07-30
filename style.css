@@ -43,14 +43,15 @@ body {
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    color: var(--branco-principal);
+    border: 2px solid var(--branco-principal);
 }
 .container__imagem {
     margin: 1em 0 2em 0;
 }
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius: 5px solid var(--branco-principal);
     padding: 1em;
     color: var(--branco-principal);
     display: block;
