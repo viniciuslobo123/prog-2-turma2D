@@ -4,10 +4,10 @@
 }
 
 :root {
-    --branco-principal: #46ce10;
+    --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #08b1cf;
+    --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
 }
 
@@ -31,7 +31,7 @@ body {
 }
 body {
     background-color: var(--cor-de-fundo);
-    color: var(--verde);
+    color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
@@ -140,7 +140,7 @@ body {
 }
 
 .lista__link a:active {
-    color: rgb(221, 34, 34);
+    color: purple;
 }
 
 .container__botao:hover {
